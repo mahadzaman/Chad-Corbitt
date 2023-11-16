@@ -1,0 +1,153 @@
+/* Custom Css for Project */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Hind+Madurai:wght@400;500&display=swap');
+
+
+
+body {
+    background: #fefaf6;
+    color: #232320;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Anton', sans-serif;
+}
+
+.abril-font {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 50px;
+    color: #552f1d;
+}
+
+.big-heading {
+    font-size: 80px;
+    color: #bc3d30;
+    display: inline-block;
+    padding: 5px 0;
+    background: #ffe7dc;
+}
+
+.big-para {
+    font-size: 24px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.line-height-2 {
+    line-height: 2;
+}
+
+.font-large {
+    font-size: 24px;
+}
+
+.pro-img {
+    max-height: 650px;
+    object-fit: cover;
+}
+
+.nav-link {
+    font-size: 18px;
+    font-family: 'Hind Madurai', sans-serif;
+}
+
+.nav-link.active,
+.nav-link:hover {
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.gallery > .col-md-3 {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+    box-shadow: 0 0 0 20px rgb(255 255 255);
+}
+
+.gallery a {
+    width: 100%;
+    display: block;
+}
+
+.gallery a img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+
+.navbar-nav {
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-item {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.mar-t-50 {
+    margin-top: 50px;
+}
+
+.width-50-md {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.sep-child .col-md-6 .experince-wrapper > .row {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.sep-child .col-md-6 .experince-wrapper > .row:last-of-type {
+    border: none
+}
+
+.experince-wrapper {
+    width: 100%;
+}
+
+.sep-child img:not(.headshot) {
+    max-width: 70px;
+}
+
+.social-links {
+    list-style-type: none;
+    margin-bottom: 0;
+}
+
+.social-links img {
+    width: 40px;
+}
+
+@media (max-width: 1024px) {
+    .width-50-md {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .social-links {
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 450px) {
+    .mt-xs-2 {
+        margin-top: 10px;
+    }
+}
